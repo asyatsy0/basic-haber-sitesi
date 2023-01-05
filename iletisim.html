@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+ 
+<head>
+<meta charset="utf-8">
+<title>İletişim Formu</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+ 
+<body>
+    <div class="sayfa">
+        <div id="ust">
+                <h1 id="logo">E-HABER</h1>
+                <ul id="menu">
+                    <li><a href="anasayfa.html">Anasayfa</a></li>
+                    <li><a href="dünya.html">Dünya</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+     
+            <div class="temizle"></div>
+        </div>
+ 
+<form class="form-style-4" action="" method="post">
+<label for="alan1">
+<span>İsim/Soyisim</span><input type="text" name="field1" required="true" /> <!-- bu satır boş geçilirse uyarı verir-->
+</label>
+<label for="alan2">
+<span>E-Posta</span><input type="email" name="field2" required="true" /> <!-- e mail kısmı mail formatına uygun yazılmazsa uyarı mesajı verir-->
+</label>
+<label for="alan3">
+<span>Özet</span><input type="text" name="field3" required="true" /> <!-- bu satır boş geçilirse uyarı verir-->
+</label>
+<label for="alan4">
+<span>Mesajınız</span><textarea name="field4" onkeyup="adjust_textarea(this)" required="true"></textarea> <!-- bu satır boş geçilirse uyarı verir-->
+</label>
+<label>
+<span>&nbsp;</span><input type="submit" value="Gönder" />
+</label>
+</form>
+</body>
+<footer style="margin-top: 330px;" class="footer">
+    <div style="position:relative; display:inline-block; padding-left:40px; padding-right:40px">
+    <p> E-Haber © 2011 All Rights Reserved.</p>
+</html>
